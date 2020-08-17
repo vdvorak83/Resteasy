@@ -27,8 +27,7 @@
                     <contextPath>/services</contextPath>
                     <scanIntervalSeconds>2</scanIntervalSeconds>
                     <connectors>
-                        <connector
-                                implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
                             <port>9095</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
@@ -76,7 +75,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
-            <version>3.0.6.RELEASE</version>
+            <version>3.2.18.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
