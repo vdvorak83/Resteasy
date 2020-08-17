@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.0-beta2</version>
+            <version>4.5.12</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
@@ -75,8 +75,7 @@
                     <stopKey>foo</stopKey>
                     <stopPort>9999</stopPort>
                     <connectors>
-                        <connector
-                                implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
                             <port>9095</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
