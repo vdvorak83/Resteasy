@@ -35,7 +35,7 @@
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-client</artifactId>
-            <version>3.0.12.Final-SNAPSHOT</version>
+            <version>3.11.0.Final</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
@@ -70,7 +70,7 @@
         <dependency>
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>
-            <version>1.2.1</version>
+            <version>1.2.2</version>
         </dependency>
         <!-- In memory database. To replace MySQL for test -->
         <dependency>
