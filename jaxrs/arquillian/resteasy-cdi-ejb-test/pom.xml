@@ -157,9 +157,7 @@
             <phase>process-test-classes</phase>
             <configuration>
               <target>
-                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-${version}.zip"
-                       dest="${project.build.directory}/jboss-as-${as-version}/modules"
-                       overwrite="false" />
+                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-${version}.zip" dest="${project.build.directory}/jboss-as-${as-version}/modules" overwrite="false"/>
               </target>
             </configuration>
             <goals>
@@ -171,8 +169,7 @@
             <phase>process-test-classes</phase>
             <configuration>
               <target>
-                <copy file="${basedir}/src/test/resources/application-roles.properties"
-                      todir="${project.build.directory}/jboss-as-${as-version}/standalone/configuration" />
+                <copy file="${basedir}/src/test/resources/application-roles.properties" todir="${project.build.directory}/jboss-as-${as-version}/standalone/configuration"/>
               </target>
             </configuration>
             <goals>
@@ -184,8 +181,7 @@
             <phase>process-test-classes</phase>
             <configuration>
               <target>
-                <copy file="${basedir}/src/test/resources/application-users.properties"
-                      todir="${project.build.directory}/jboss-as-${as-version}/standalone/configuration/" />
+                <copy file="${basedir}/src/test/resources/application-users.properties" todir="${project.build.directory}/jboss-as-${as-version}/standalone/configuration/"/>
               </target>
             </configuration>
             <goals>
@@ -300,7 +296,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.8.1</version>
+      <version>4.13.1</version>
       <!--scope>test</scope-->
     </dependency>
     <dependency>
