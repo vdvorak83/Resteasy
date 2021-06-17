@@ -68,9 +68,7 @@
             <phase>process-test-classes</phase>
             <configuration>
               <target>
-                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-wf8-${project.version}.zip"
-                       dest="${project.build.directory}/wildfly-${as-version}/modules/system/layers/base"
-                       overwrite="true" />
+                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-wf8-${project.version}.zip" dest="${project.build.directory}/wildfly-${as-version}/modules/system/layers/base" overwrite="true"/>
               </target>
             </configuration>
             <goals>
@@ -162,7 +160,7 @@
     <dependency>
         <groupId>org.hibernate</groupId> 
         <artifactId>hibernate-validator</artifactId>
-        <version>5.0.1.Final</version>
+        <version>6.0.19.Final</version>
     </dependency>
     <dependency>
         <groupId>javax.el</groupId>
