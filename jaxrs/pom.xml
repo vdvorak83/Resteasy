@@ -31,7 +31,7 @@
         <version.org.jboss.spec.javax.servlet.jboss-servlet-api_3.1_spec>1.0.0.Final</version.org.jboss.spec.javax.servlet.jboss-servlet-api_3.1_spec>
         <version.org.glassfish.javax.el>3.0.0</version.org.glassfish.javax.el>
         <version.io.undertow>1.0.1.Final</version.io.undertow>
-        <version.com.fasterxml.jackson>2.4.1</version.com.fasterxml.jackson>
+        <version.com.fasterxml.jackson>2.8.6</version.com.fasterxml.jackson>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -343,7 +343,7 @@
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-core</artifactId>
-                <version>5.1.6.FINAL</version>
+                <version>6.0.0.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.infinispan</groupId>
