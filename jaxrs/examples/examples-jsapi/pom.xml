@@ -19,12 +19,12 @@
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-jaxrs</artifactId>
-            <version>3.0.12.Final-SNAPSHOT</version>
+            <version>3.11.0.Final</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-jsapi</artifactId>
-            <version>3.0.12.Final-SNAPSHOT</version>
+            <version>3.11.0.Final</version>
         </dependency>
     </dependencies>
     <build>
