@@ -65,7 +65,7 @@
         <dependency>
             <groupId>hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
-            <version>1.8.0.7</version>
+            <version>1.8.0.10</version>
         </dependency>
         <dependency>
           <groupId>org.openid4java</groupId>
@@ -111,8 +111,7 @@
                     <contextPath>/examples-oauth-push-messaging-sso</contextPath>
                     <scanIntervalSeconds>2</scanIntervalSeconds>
                     <connectors>
-                        <connector
-                                implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
                             <port>${webapp.port}</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
