@@ -14,7 +14,7 @@
     <properties>
         <jboss.home>/Users/billburke/jboss/WildFly-8.0.0.Final</jboss.home>
         <dep.jaxb-impl.version>2.2.7</dep.jaxb-impl.version>
-        <dep.jettison.version>1.3.2</dep.jettison.version>
+        <dep.jettison.version>1.4.1</dep.jettison.version>
         <dep.commons-io.version>2.1</dep.commons-io.version>
         <dep.hibernate-validator.version>5.1.0.Final</dep.hibernate-validator.version>
         <dep.javax.persistence.version>1.0.1.Final</dep.javax.persistence.version>
