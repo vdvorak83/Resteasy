@@ -68,9 +68,7 @@
             <phase>process-test-classes</phase>
             <configuration>
               <target>
-                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-wf8-${project.version}.zip"
-                       dest="${project.build.directory}/wildfly-${as-version}/modules/system/layers/base"
-                       overwrite="true" />
+                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-wf8-${project.version}.zip" dest="${project.build.directory}/wildfly-${as-version}/modules/system/layers/base" overwrite="true"/>
               </target>
             </configuration>
             <goals>
@@ -172,7 +170,7 @@
     <dependency>
         <groupId>org.glassfish.web</groupId>
         <artifactId>javax.el</artifactId>
-        <version>2.2.4</version>
+        <version>2.2.6</version>
     </dependency>
 <dependency>
   <groupId>org.jboss.spec.javax.xml.bind</groupId>
