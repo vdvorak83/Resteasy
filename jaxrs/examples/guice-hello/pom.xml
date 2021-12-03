@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-guice</artifactId>
-            <version>3.0.12.Final-SNAPSHOT</version>
+            <version>3.15.2.Final</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -62,8 +62,7 @@
                     <stopKey>foo</stopKey>
                     <stopPort>9999</stopPort>
                     <connectors>
-                        <connector
-                                implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
                             <port>9095</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
