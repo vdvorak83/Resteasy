@@ -70,7 +70,7 @@
         <dependency>
           <groupId>org.openid4java</groupId>
           <artifactId>openid4java-consumer</artifactId>
-          <version>0.9.5</version>
+          <version>0.9.6</version>
           <exclusions> 
              <exclusion>
                  <groupId>net.sourceforge.nekohtml</groupId>
@@ -111,8 +111,7 @@
                     <contextPath>/examples-oauth-push-messaging-sso</contextPath>
                     <scanIntervalSeconds>2</scanIntervalSeconds>
                     <connectors>
-                        <connector
-                                implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
                             <port>${webapp.port}</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
