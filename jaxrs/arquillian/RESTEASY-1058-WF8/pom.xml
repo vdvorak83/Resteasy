@@ -68,9 +68,7 @@
             <phase>process-test-classes</phase>
             <configuration>
               <target>
-                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-wf8-${project.version}.zip"
-                       dest="${project.build.directory}/wildfly-${as-version}/modules/system/layers/base"
-                       overwrite="true" />
+                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-wf8-${project.version}.zip" dest="${project.build.directory}/wildfly-${as-version}/modules/system/layers/base" overwrite="true"/>
               </target>
             </configuration>
             <goals>
@@ -158,7 +156,7 @@
     <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>4.1.2</version>
+        <version>4.5.13</version>
         <scope>provided</scope>
     </dependency>
     <dependency>
