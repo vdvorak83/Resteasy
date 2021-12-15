@@ -68,9 +68,7 @@
             <phase>process-test-classes</phase>
             <configuration>
               <target>
-                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-${project.version}.zip"
-                       dest="${project.build.directory}/jboss-as-${as-version}/modules"
-                       overwrite="true" />
+                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-${project.version}.zip" dest="${project.build.directory}/jboss-as-${as-version}/modules" overwrite="true"/>
               </target>
             </configuration>
             <goals>
@@ -163,7 +161,7 @@
     <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpcore</artifactId>
-        <version>4.1.4</version>
+        <version>4.4.14</version>
         <scope>provided</scope>
     </dependency>
     <dependency>
