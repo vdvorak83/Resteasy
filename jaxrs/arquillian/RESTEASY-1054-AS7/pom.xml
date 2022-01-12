@@ -69,9 +69,7 @@
             <phase>process-test-classes</phase>
             <configuration>
               <target>
-                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-${project.version}.zip"
-                       dest="${project.build.directory}/jboss-as-${as-version}/modules"
-                       overwrite="true" />
+                <unzip src="../../jboss-modules/target/resteasy-jboss-modules-${project.version}.zip" dest="${project.build.directory}/jboss-as-${as-version}/modules" overwrite="true"/>
               </target>
             </configuration>
             <goals>
@@ -99,7 +97,7 @@
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-servlet-initializer</artifactId>
-            <version>3.0.7.Final</version>
+            <version>3.0.20.Final</version>
         </dependency>
     <dependency>
         <groupId>org.jboss.spec</groupId>
@@ -163,7 +161,7 @@
     <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>4.1.2</version>
+        <version>4.5.13</version>
         <scope>provided</scope>
     </dependency>
     <dependency>
