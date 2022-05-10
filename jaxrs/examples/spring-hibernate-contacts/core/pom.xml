@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate</artifactId>
-            <version>3.2.6.ga</version>
+            <version>3.5.4-Final</version>
         </dependency>
         <!-- In memory database. To replace MySQL for test -->
         <dependency>
